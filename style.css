@@ -1,0 +1,77 @@
+body{
+    background-color: #555;
+}
+#weather{
+    height:500px;
+    width:450px;
+    background:linear-gradient(135deg,#02fbb9,#5a588b);
+    margin:100px auto;
+    border-radius:50px;
+    padding:25px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 60px grey;
+    
+}
+#search{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding:5px;
+}
+#search>input{
+    width:75%;
+    margin-top:5px;
+    border-radius:50px;
+    padding-left: 20px;
+    font-size:20px; 
+    height:50px;/* font size  of  input field*/
+    border:none;/*this will remove border of input field but when click on field then border again comes or remove outer border*/
+    box-shadow: 2px 2px 10px black;
+}
+#search>input:focus{
+    outline:none;/*when we click on input field then border not show using this or remove inter border*/
+}
+#search>button{
+    background-color: white;
+    height:50px;
+    margin-top:6px;
+    padding:8px 10px;
+    border-radius:50%;
+    border:none;
+    box-shadow: 2px 2px 10px black;
+}
+#search>button>img{
+    width:100%;
+    height:100%;
+}
+#main{
+    text-align:center;
+    color:white;
+}
+#main>img{
+    height:180px;
+    width:180px;
+}
+#main>#temp{
+    font-size:35px;
+}
+#main>#cityname{
+font-size:30px ;
+}
+#container,.row{
+    display: flex;
+    justify-content:space-around;
+}
+.row>img{
+    height:40px;
+    margin-right: 5px;
+    margin-top:10px;
+}
+.row>div>p{
+    font-size:20px;
+    margin:0;
+}
+#humidity,#wind{
+    font-size:30px;
+
+}
